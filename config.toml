@@ -21,7 +21,7 @@ paginate = 10
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
-  dateFormat = "02 Jan 2006, 15:04"
+  dateFormat = "Monday, January 2, 2006"
   # Include any custom CSS and/or JS files
   # (relative to /static folder)
   # custom_css = ["css/my.css"]
@@ -35,12 +35,12 @@ paginate = 10
     weight = 0
     identifier = "home"
     url = "/"
-  # [[menu.main]]
-  #   name = "Posts"
-  #   pre = "<i class='fa fa-list fa-fw'></i>"
-  #   weight = 1
-  #   identifier = "post"
-  #   url = "/post/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
   # [[menu.main]]
   #   name = "About"
   #   pre = "<i class='fa fa-user fa-fw'></i>"
