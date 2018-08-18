@@ -31,26 +31,31 @@ paginate = 10
   [[menu.main]]
     name = "Home"
     pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
+    weight = 1
     identifier = "home"
     url = "/"
   # [[menu.main]]
   #   name = "Posts"
   #   pre = "<i class='fa fa-list fa-fw'></i>"
-  #   weight = 1
+  #   weight = 2
   #   identifier = "post"
   #   url = "/post/"
   # [[menu.main]]
   #   name = "About"
   #   pre = "<i class='fa fa-user fa-fw'></i>"
-  #   weight = 2
+  #   weight = 3
   #   identifier = "about"
   #   url = "/about/"
   # [[menu.main]]
   #   name = "Contact"
   #   pre = "<i class='fa fa-phone fa-fw'></i>"
-  #   weight = 3
+  #   weight = 4
   #   url = "/contact/"
+  [[menu.main]]
+    name = "Resume"
+    pre = "<i class='fa fa-id-badge fa-fw'></i>"
+    weight = 5
+    url = "https://woneill.github.io/resume/"
 
 [social]
   # Link your social networking accounts to the side menu
