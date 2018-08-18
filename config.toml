@@ -5,7 +5,6 @@ author = "Bill O'Neill"
 theme = "blackburn"
 
 # Shown in the side menu
-copyright = "&copy; {year}. All rights reserved."
 canonifyurls = true
 paginate = 10
 
