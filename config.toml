@@ -1,4 +1,4 @@
-baseurl = "https://woneill.com/"
+baseurl = "/"
 title = "woneill.com"
 theme = "ghostwriter"
 languageCode = "en-us"
