@@ -1,66 +1,59 @@
 baseURL = "/"
+title = "woneill.com"
+theme = "ghostwriter"
 languageCode = "en-us"
-title = "Bill O'Neill"
-author = "Bill O'Neill"
-theme = "blackburn"
+copyright = "William O'Neill"
+googleAnalytics = "UA-124203524-1"
 
-# Shown in the side menu
-canonifyurls = true
-paginate = 10
+[Privacy]
 
-[indexes]
-  tag = "tags"
-  topic = "topics"
+[Privacy.disqus]
+    disable = true
 
-[params]
-  # Shown in the home page
-  subtitle = "The Path of a Reformed BOFH"
-  brand = "WONeill"
-  googleAnalytics = "UA-124203524-1"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  highlightjs_extra_languages = ["yaml"]
-  dateFormat = "02 Jan 2006, 15:04"
-  # Include any custom CSS and/or JS files
-  # (relative to /static folder)
-  # custom_css = ["css/my.css"]
-  # custom_js = ["js/my.js"]
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
 
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
+[Author]
+    name = "William O'Neill"
+    profile = "https://woneill.com/"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "William O'Neill"
+    description = "The Path of a Reformed BOFH"
+    github = "https://github.com/woneill"
+    linkedin = "https://linkedin.com/in/williamoneill/"
+    twitter = "https://twitter.com/woneill"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = false
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"
+    exponeaTrackVisits = false
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
     url = "/"
-  # [[menu.main]]
-  #   name = "Posts"
-  #   pre = "<i class='fa fa-list fa-fw'></i>"
-  #   weight = 2
-  #   identifier = "post"
-  #   url = "/post/"
-  # [[menu.main]]
-  #   name = "About"
-  #   pre = "<i class='fa fa-user fa-fw'></i>"
-  #   weight = 3
-  #   identifier = "about"
-  #   url = "/about/"
-  # [[menu.main]]
-  #   name = "Contact"
-  #   pre = "<i class='fa fa-phone fa-fw'></i>"
-  #   weight = 4
-  #   url = "/contact/"
-  [[menu.main]]
-    name = "Resume"
-    pre = "<i class='fa fa-id-badge fa-fw'></i>"
-    weight = 5
-    url = "https://woneill.github.io/resume/"
+    weight = 1
 
-[social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
-  twitter = "woneill"
-  linkedin = "williamoneill"
-  github = "woneill"
-  keybase = "woneill"
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
