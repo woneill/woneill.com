@@ -57,3 +57,8 @@ googleAnalytics = "UA-124203524-1"
     name = "About"
     url = "/about/"
     weight = 4
+
+[[menu.main]]
+    name = "Resume"
+    url = "https://github.com/woneill/resume"
+    weight = 5
