@@ -1,0 +1,2 @@
+/.well-known/webfinger resource=acct:woneill@woneill.com /.well-known/webfinger-mastodon 200
+/.well-known/webfinger /404.html 404
