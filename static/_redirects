@@ -1,2 +1,1 @@
-/.well-known/webfinger resource=acct:woneill@woneill.com /.well-known/webfinger-mastodon 200
-/.well-known/webfinger /404.html 404
+/.well-known/webfinger resource=acct:woneill@woneill.com https://theatl.social/.well-known/webfinger?resource=acct:woneill@theatl.social 200
